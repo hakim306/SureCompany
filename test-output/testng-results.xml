@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T15:57:53 EEST" name="Default suite" finished-at="2024-05-06T15:58:15 EEST" duration-ms="21405">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T15:57:53 EEST" name="Default test" finished-at="2024-05-06T15:58:15 EEST" duration-ms="21405">
+      <class name="testCases.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Login@3976ebfa]" started-at="2024-05-06T15:57:53 EEST" name="setUp" finished-at="2024-05-06T15:58:00 EEST" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login(java.util.HashMap)[pri:0, instance:testCases.Login@3976ebfa]" started-at="2024-05-06T15:58:00 EEST" name="Login" data-provider="dp" finished-at="2024-05-06T15:58:15 EEST" duration-ms="14544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=cairo, workEmail=test@test.com, work=678676886, postalCode=0987, mobile=01274155777, state=uk, email=qa@test.com, home=01298383233}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Login@3976ebfa]" started-at="2024-05-06T15:58:15 EEST" name="tearDown" finished-at="2024-05-06T15:58:15 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
